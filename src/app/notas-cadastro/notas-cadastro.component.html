@@ -1,0 +1,14 @@
+<div>
+    <form>
+      <h3 class="first">Título</h3>
+      <input name="title" id="input" type="text" size="30" pInputText [(ngModel)]="nota.title"> 
+
+      <h3 class="first">Descrição</h3>
+      <input name="descricao" id="input" type="text" size="30" pInputText [(ngModel)]="nota.descricao"> 
+
+      <br/>
+      <br/>
+
+      <button (click)="adicionar()">Gravar</button>
+    </form>
+</div>
